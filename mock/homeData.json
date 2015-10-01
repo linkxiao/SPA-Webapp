@@ -1,0 +1,13 @@
+{
+    "bannerImg": [
+    	{
+    		"img":"../src/img/banner1.jpg",
+    		"link":""
+    	},
+    	{
+    		"img":"../src/img/banner2.jpg",
+    		"link":"#/design/index"
+    	}
+    ],
+   "path":"/src"
+}

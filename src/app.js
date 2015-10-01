@@ -15,7 +15,9 @@ define(function (require) {
 
     // saber-firework全局配置信息
     var config = {
-            // 配置index文件名称
+            //配置入口页(home)路径
+            path:'/home/',
+            // 配置index(controler层，便于初始化时load入口文件)文件名称
             index: 'index'
         };
 

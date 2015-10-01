@@ -65,6 +65,19 @@ exports.getLocations = function () {
             ]
         },
         {
+           location: /\.less($|\?)/,
+           handler: [
+             file(),
+             less()
+           ]
+        },
+        {
+            location: /\.php($|\?)/,
+            handler: [
+                php()
+            ]
+        },
+        {
             location: /^.*$/,
             handler: [
                 file(),
@@ -73,6 +86,7 @@ exports.getLocations = function () {
                 proxyNoneExists()
             ]
         }
+
     ];
 };
 

@@ -68,6 +68,7 @@ exports.exclude = [
  */
 exports.getProcessors = function () {
     var cssProcessor = new CssCompressor();
+    var lessProcessor = new LessCompiler();
     var moduleProcessor = new ModuleCompiler();
     var jsProcessor = new JsCompressor();
     var pathMapperProcessor = new PathMapper();
@@ -89,6 +90,7 @@ exports.getProcessors = function () {
 
     return [
         stylusProcessor,
+        lessProcessor,
         cssProcessor,
         html2jsPorcessor,
         moduleProcessor,
