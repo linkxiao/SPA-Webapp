@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="${path}/css/home.less">
+<link rel="stylesheet" href="${path}/home/home.less">
 
    <div class="header">
      <span></span>
@@ -19,31 +19,8 @@
                 </a>
             </li>
             <!-- /for -->
-         <!-- <li style="transform: translate3d(-375px, 0px, 0px); transition: none;">
-           <a href="#/activity/my"><img src="${path}/img/banner1.jpg" style="width: 375px;"></a>
-         </li>
-         <li style="width: 375px; transform: translate3d(-375px, 0px, 0px); transition: 300ms ease-out;">
-           <a><img src="${path}/img/content-img1.jpg" style="width: 375px;"></a>
-         </li>
-         <li style="width: 375px; transform: translate3d(0px, 0px, 0px); transition: 300ms ease-out;">
-           <a href="#/activity/my"><img src="${path}/img/banner1.jpg" style="width: 375px;"></a>
-         </li>
-         <li style="transform: translate3d(375px, 0px, 0px); transition: 300ms ease-out;">
-           <a><img src="${path}/img/content-img1.jpg" style="width: 375px;"></a>
-         </li> -->
        </ul>
-       <!-- <div class="searchEntryContainer">
-         <div id="searchEntry" data-search="#/search/history">
-           <i></i><span>输入医院 / 科室 / 疾病 / 医生</span>
-         </div>
-       </div> -->
-       <div class="pagination">
-         <span class=""></span>
-         <span class="active"></span>
-       </div>
      </div>
-
-
 
      <div class="bom-title">
      <br/>

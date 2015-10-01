@@ -1,11 +1,11 @@
 {
     "bannerImg": [
     	{
-    		"img":"../src/img/banner1.jpg",
+    		"img":"../src/common/img/banner1.jpg",
     		"link":""
     	},
     	{
-    		"img":"../src/img/banner2.jpg",
+    		"img":"../src/common/img/banner2.jpg",
     		"link":"#/design/index"
     	}
     ],
