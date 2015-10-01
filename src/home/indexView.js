@@ -29,6 +29,8 @@ define(function (require) {
               h = h>400?400:h
               dom.query('#photo').style.height = h+'px';
             })();
+
+
          }
        }
 
