@@ -25,7 +25,8 @@ $smarty->assign('tplData', array(
         'sid'=>123,
         'pid'=>3333
     ),
-    'homeData'=>$homeData
+    'homeData'=>$homeData,
+    'region'=> '新加坡'
 ));
 
 

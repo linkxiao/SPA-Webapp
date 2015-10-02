@@ -29,20 +29,28 @@
 
       <nav class="content-nav">
         <div class="nav-row">
-          <aside class="col-span col-span-one">
-            <img src="${path}/common/img/icon-design.png"/>
-          </aside>
-          <aside class="col-span col-span-two">
-            <img src="${path}/common/img/icon-good.png"/>
-          </aside>
+          <a href="#/detail/detail~1">
+            <aside class="col-span col-span-one">
+              <img src="${path}/common/img/icon-design.png"/>
+            </aside>
+          </a>
+          <a href="#/detail/detail~2">
+            <aside class="col-span col-span-two">
+              <img src="${path}/common/img/icon-good.png"/>
+            </aside>
+          </a>
         </div>
         <div class="nav-row">
+          <a href="#/detail/detail~3">
             <aside class="col-span col-span-one">
               <img src="${path}/common/img/icon-data.png"/>
             </aside>
+          </a>
+          <a href="#/detail/detail~4">
             <aside class="col-span col-span-two">
               <img src="${path}/common/img/icon-change.png"/>
             </aside>
+          </a>
         </div>
       </nav>
 

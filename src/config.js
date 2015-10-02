@@ -9,6 +9,7 @@ define(function (require) {
     return [
       {path: '/home/index', action: require('./home/index')},
       //{path: '/design/index', action: require('./design/index')},
+      {path: '/detail/detail', action: require('./detail/detail')},
     ];
 
 });

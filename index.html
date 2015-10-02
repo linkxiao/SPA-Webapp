@@ -106,6 +106,7 @@
 <script>
   define('global/env', {%$tplData.env|@json_encode%});
   define('global/path', {%$tplData.path|@json_encode%});
+  define('global/region', {%$tplData.region|@json_encode%});
   define('global/homedata', {%$tplData.homeData|@json_encode%});
   require(['app'], function (app) {
       app.init();
