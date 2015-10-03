@@ -10,7 +10,7 @@ var epr = require('./edp-rider-config');
 exports.stylus = epr.stylus;
 
 // 端口
-exports.port = 8845;
+exports.port = 8846;
 
 // 网站根目录
 exports.documentRoot = process.cwd();

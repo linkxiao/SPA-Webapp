@@ -1,0 +1,42 @@
+// <ul class="case-list flex-box">
+//   <li class="flex-cell">sjdjd</li>
+//   <li class="flex-cell">sjdjd</li>
+//   <li class="flex-cell">sjdjd</li>
+//   <li class="flex-cell">sjdjd</li>
+//   <li class="flex-cell">sjdjd</li>
+// </ul>
+
+
+.case-list{
+   width: 100%;
+   padding: 0px;
+   margin:0px;
+  li{
+    width:100%;
+    min-height: 80px;
+    max-height:160px;
+    border-bottom:1px solid #E1E1E1;
+    
+  }
+}
+
+
+.flex-box{
+  display:-webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.flex-cell{
+  -webkit-flex: 1 27%;
+  flex: 1 27%;
+}
+
+@media all and (max-width: 479px) {
+  /* We tell both sidebars to share a row */
+    .flex-cell{
+      -webkit-flex: 1 35%;
+      flex: 1 35%;
+    }
+}

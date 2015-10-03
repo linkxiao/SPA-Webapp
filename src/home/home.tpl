@@ -58,6 +58,48 @@
         <img src="${path}/common/img/content-step.jpg"/>
       </section>
 
+     <section class="content-case">
+       <dt class="case-title">
+         <p class="title"><img src="${path}/common/img/home-title.jpg"/></p>
+         <span class="more"> 查看全部 > </span>
+       </dt>
+       <ul class="case-item flex-box">
+         <li class="flex-cell">
+           <img src="${path}/common/img/case01.jpg"/>
+           <article>
+             <h3>冠心病</h3>
+             <dd>王先生 年龄:25</dd>
+           </article>
+         </li>
+
+         <li class="flex-cell">
+           <img src="${path}/common/img/case01.jpg"/>
+           <article>
+             <h3>冠状动脉硬化</h3>
+             <dd>王先生 年龄:25</dd>
+           </article>
+         </li>
+
+         <li class="flex-cell">
+           <img src="${path}/common/img/case01.jpg"/>
+           <article>
+             <h3>冠状动脉硬化</h3>
+             <dd>王先生 年龄:25</dd>
+           </article>
+         </li>
+
+         <li class="flex-cell">
+           <img src="${path}/common/img/case01.jpg"/>
+           <article>
+             <h3>冠状动脉硬化</h3>
+             <dd>王先生 年龄:25岁</dd>
+           </article>
+         </li>
+
+       </ul>
+     </section>
+
+
      </div>
 
 
