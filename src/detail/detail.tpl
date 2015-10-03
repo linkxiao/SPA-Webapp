@@ -46,7 +46,7 @@
 		<!-- /if-->
 	</ul>
 </div>
-<div class="container">
+<div class="list-container">
 	<!-- if: ${types} == 1-->
 		<img src="${path}/common/img/design-history.jpg" alt="history">
 		<img src="${path}/common/img/design-material.jpg" alt="material">
