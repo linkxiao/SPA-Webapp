@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="${path}/detail/detail.less">
 <!-- var: types = location.hash.split("~")[1]-->
 <!-- if: ${types} == 1-->
 <!-- var: headerText = "可溶解支架"-->
@@ -90,21 +89,3 @@
 		<li class="last-item item"><a href="javascript:void(0)">意见反馈</a></li>
 	</ul>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
