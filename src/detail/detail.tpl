@@ -49,34 +49,35 @@
 </div>
 <div class="container">
 	<!-- if: ${types} == 1-->
-		<img src="${path}/common/img/design-history.png" alt="history">
-		<img src="${path}/common/img/design-material.png" alt="material">
-		<img src="${path}/common/img/design-surface.png" alt="surface">
-		<img src="${path}/common/img/design-composition.png" alt="composition">
-		<img src="${path}/common/img/design-channelling.png" alt="channelling">
+		<img src="${path}/common/img/design-history.jpg" alt="history">
+		<img src="${path}/common/img/design-material.jpg" alt="material">
+		<img src="${path}/common/img/design-surface.jpg" alt="surface">
+		<img src="${path}/common/img/design-composition.jpg" alt="composition">
+		<img src="${path}/common/img/design-channelling.jpg" alt="channelling">
 	<!-- elif: ${types} == 2-->
 		<div class="type2">
-			<img src="${path}/common/img/special-death.png" alt="" class="special-death">
+			<img src="${path}/common/img/special-death.jpg" alt="" class="special-death">
 			<a href="javascript:alert(11)" class="special-death-a"></a>
 		</div>
 		<div class="type2">
-			<img src="${path}/common/img/special-attack.png" alt="attack" class="special-attack">
+			<img src="${path}/common/img/special-attack.jpg" alt="attack" class="special-attack">
 			<a href="javascript:alert(22)" class="special-attack-a"></a>
 		</div>
 		<div class="type2">
-			<img src="${path}/common/img/special-cures.png" alt="cures" class="special-cures">
+			<img src="${path}/common/img/special-cures.jpg" alt="cures" class="special-cures">
 			<a href="javascript:alert(33)" class="special-cures-a"></a>
 		</div>
 		<div class="type2">
-			<img src="${path}/common/img/special-resonance.png" alt="resonance" class="pecial-resonance">
+			<img src="${path}/common/img/special-resonance.jpg" alt="resonance" class="pecial-resonance">
 			<a href="javascript:alert(44)" class="pecial-resonance-a"></a>
 		</div>
 		<div class="type2">
-			<img src="${path}/common/img/special-regain.png" alt="regain" class="special-regain">
+			<img src="${path}/common/img/special-regain.jpg" alt="regain" class="special-regain">
 			<a href="javascript:alert(55)" class="special-regain-a"></a>
 		</div>
 		<div class="type2">
-			<img src="${path}/common/img/special-affect.png" alt="affect" class="special-affect">
+			<img src="${path}/common/img/special-affect.jpg" alt="affect" class="special-affect">
+			<img src="${path}/common/img/special-affect.jpg" alt="affect" class="special-affect">
 			<a href="javascript:alert(66)" class="special-affect-a"></a>
 		</div>
 	<!-- /if-->
