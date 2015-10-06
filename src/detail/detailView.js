@@ -16,7 +16,8 @@ define(function (require) {
             (rederNav = function() {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
-                var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
+                //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
+                var blank    = (winWidth - 18 * 2 - 50 * 4) / 3 / 2;
 
                 var oLis = dom.queryAll('.item a');
                 var len  = oLis.length;

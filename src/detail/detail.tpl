@@ -76,16 +76,70 @@
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-affect.jpg" alt="affect" class="special-affect">
-			<img src="${path}/common/img/special-affect.jpg" alt="affect" class="special-affect">
 			<a href="javascript:alert(66)" class="special-affect-a"></a>
 		</div>
+	<!-- elif: ${types} == 3-->
+		<hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
+		<div class="wrap-table">
+			<table class="contrast-table" border=0 cellspacing=5 cellpadding=0>
+				<tr>
+					<th><img src="${path}/common/img/old.jpg" alt=""></th>
+					<th><img src="${path}/common/img/new.jpg" alt=""></th>
+				</tr>
+				<tr>
+					<td><p>传统金属支架</p></td>
+					<td><p>可溶解支架</p></td>
+				</tr>
+				<tr>
+					<td>
+						<p>金属支架永久存在</p>
+						<p>终生服用阿司匹林</p>
+						<p>术后再狭窄率5%-10%</p>
+					</td>
+					<td>
+						<p>两年后完全溶解</p>
+						<p>服用阿司匹林两年</p>
+						<p>术后再狭窄率&lt;4%</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>再次放支架的难度高</p>
+						<p>受磁场影响较大</p>
+						<p>血管壁支撑力良好</p>
+					</td>
+					<td>
+						<p>不影响再次放支架</p>
+						<p>不受磁场影响</p>
+						<p>血管壁支撑力良好</p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>血管功能丧失</p>
+						<p>持续血管炎症反应</p>
+						<p>异物反应较少</p>
+					</td>
+					<td>
+						<p>完全恢复血管功能</p>
+						<p>血管炎症反应小，2年后消失</p>
+						<p>异物反应极少，2年后消失</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	<!-- elif: ${types} == 4-->
+		<hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
+		<img src="${path}/common/img/three_phases.jpg">
+		<img src="${path}/common/img/constrast.jpg">
+	
 	<!-- /if-->
 </div>
 <div class="footer-nav">
 	<ul class="item-list">
-		<li class="first-item item"><a href="javascript:void(0)">关于我们</a></li>
-		<li class="item"><a href="javascript:void(0)">常见问题</a></li>
-		<li class="item"><a href="javascript:void(0)">就医指南</a></li>
-		<li class="last-item item"><a href="javascript:void(0)">意见反馈</a></li>
+		<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+		<li class="item"><a href="#/other/other~2">常见问题</a></li>
+		<li class="item"><a href="#/other/other~3">就医指南</a></li>
+		<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
 	</ul>
 </div>

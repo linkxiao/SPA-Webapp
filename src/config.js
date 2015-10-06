@@ -10,6 +10,7 @@ define(function (require) {
       {path: '/home/index', action: require('./home/index')},
       //{path: '/design/index', action: require('./design/index')},
       {path: '/detail/detail', action: require('./detail/detail')},
+      {path: '/other/other', action: require('./other/other')},
     ];
 
 });

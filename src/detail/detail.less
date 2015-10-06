@@ -6,6 +6,7 @@ header {
 	text-align: center;
 	font-size: 15px;
   	color: rgb(63, 149, 230);
+  	overflow: hidden;
 
 	.btn-back {
 		float: left;
@@ -74,7 +75,7 @@ header {
 .nav, .footer-nav {
 	height: 50px;
 	line-height: 50px;
-	padding: 0 18px;
+	padding-left: 18px;
 	font-size: 12px;
 
 	.item-list {
@@ -122,4 +123,47 @@ header {
 			z-index: 2;
 		}
 	}
+
+	.wrap-table {
+		margin: 0 10px;
+
+		.contrast-table {
+			width: 100%;
+
+			tr {
+				th {
+					height: 100px;
+					img {
+						height: 100%;
+						width: auto;
+						margin: 0 auto;
+					}
+				}
+
+				td, th {
+					padding: 12px 0px;
+					text-align: center;
+
+					p {
+						height: 18px;
+						line-height: 18px;
+					}
+				}
+
+				td:first-child {
+					background-color: #f9f9f9;
+					color: #000000;
+				}
+
+				td:last-child {
+					background-color: #fcfcfc;
+					color: rgb(63, 149, 230);
+
+				}
+			}
+			
+		}
+	}
+	
+	
 }
