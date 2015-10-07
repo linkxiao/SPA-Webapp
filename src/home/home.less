@@ -78,34 +78,56 @@
    .case-title{
     width:100%;
     margin:0px auto;
-    height:60px;
+    height:45px;
+    line-height: 45px;
+    font-size:2.5em;
     text-align:center;
-  	line-height: 60px;
     border-bottom:1px solid #E1E1E1;
     .title{
       float: left;
       margin-left:3%;
-     img{
-       width:160px;
-       height:20px;
-     }
+      color: #656565;
     }
     .more{
       display: block;
       float:right;
       margin-right:3%;
-      font-size:2.5em;
       color:#B6B6B6;
     }
    }
-   //case-list start:详见下面case-item
+   //case-list:详见下面case-item
   }
+
+/*bottom navgation start*/
+  .content-bom{
+    width: 100%;
+    margin-bottom:200px;
+    .bom-con{
+       width: 100%;
+       line-height: 25px;
+       list-style: none;
+       padding: 0px;
+       margin:0px;
+       li{
+         height:25px;
+       }
+       li:first-child{
+         margin-left:5%;
+       }
+
+    }
+    .flex-box{
+      display:-webkit-flex;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+    }
+  }
+/*bottom navgation end*/
 
 }
 
-
-
-
+/*bottom navgation start*/
 .case-item{
    width: 100%;
    padding: 0px;
@@ -119,16 +141,15 @@
     margin-bottom:1em;
     padding-bottom:1em;
     border-bottom:1px solid #E1E1E1;
+    display: inline-block;
     img{
-       width:100%;
-       height:100%;
-       max-width: 254px;
-       max-height: 128px;
-       display: inline-block;
+      width: 50%;
+      margin-left:3%;
+      display: inline-block;
     }
     article{
       display: inline-block;
-      margin-left:10%;
+      margin-left:6%;
       vertical-align: top;
       padding-top:1em;
       line-height: 2em;
@@ -145,98 +166,17 @@
   }
 }
 
-@media (min-width: 560px) {
-  .case-item{
-    li{
-      img{
-         width:100%;
-         height:100%;
-         max-width: 254px;
-         max-height: 128px;
-      }
-      article{
-        margin-top:1.5em;
-        line-height: 3em;
-        h3{
-          font-size:3em;
-        }
-        dd{
-          font-size:1.8em;
-        }
-      }
-    }
-  }
+.flex-cell{
+  -webkit-flex: 1 23%;
+  flex: 1 23%;
 }
 
-@media (min-width: 376px) and (max-width: 550px) {
-  .case-item{
-    li{
-      img{
-         width:100%;
-         height:100%;
-         max-width: 169.333px;
-         max-height: 85.333px;
-      }
-    }
-  }
-}
 
-@media (min-width: 320px) and (max-width: 375px) {
-  .case-item{
-    li{
-      margin-bottom: 0em;
-      padding-bottom: 0em;
-      img{
-         width:100%;
-         height:100%;
-         max-width: 120px;
-         max-height: 80px;
-      }
-      article{
-        padding-top:0em;
-        line-height: 2em;
 
-        h3{
-          font-weight: blod;
-          font-size:2.5em;
-        }
-        dd{
-          width:100%;
-          font-size:1.8em;
-        }
-      }
-    }
-  }
-}
 
-@media all and (max-width: 319px){
-  .case-item{
-    li{
-      img{
-         width:100%;
-         height:100%;
-         max-width: 85.333px;
-         max-height: 42.666px;
-      }
-    }
-  }
-}
-
-// .flex-box{
-//   display:-webkit-flex;
-//   display: flex;
-//   -webkit-flex-flow: row wrap;
-//   flex-flow: row wrap;
-// }
-//
-// .flex-cell{
-//   -webkit-flex: 1 27%;
-//   flex: 1 27%;
-// }
-//
-// @media all and (max-width: 479px) {
-//     .flex-cell{
-//       -webkit-flex: 1 35%;
-//       flex: 1 35%;
-//     }
+// @media (min-width: 320px) and (max-width: 375px) {
+//   .flex-cell{
+//     -webkit-flex: 1 35%;
+//     flex: 1 35%;
+//   }
 // }

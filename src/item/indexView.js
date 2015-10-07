@@ -9,7 +9,7 @@ define(function (require) {
 
     var config = {};
 
-    config.template = require('./detail.tpl');
+    config.template = require('./item.tpl');
     config.events = {
         ready: function () {
 

@@ -8,9 +8,9 @@
 define(function (require) {
     return [
       {path: '/home/index', action: require('./home/index')},
-      //{path: '/design/index', action: require('./design/index')},
-      {path: '/detail/detail', action: require('./detail/detail')},
-      {path: '/other/other', action: require('./other/other')},
+      {path: '/item/item', action: require('./item/index')},//二级页面
+      {path: '/detail/detail', action: require('./detail/detail')},//三级详情页
+      {path: '/other/other', action: require('./other/other')},//其他页面，such as:关于/问题/指南/反馈等
     ];
 
 });
