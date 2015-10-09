@@ -135,11 +135,14 @@
 
 	<!-- /if-->
 </div>
-<div class="footer-nav">
+
+
+<!--include file="${path}/common/tpl/footer.tpl"-->
+{* <div class="footer-nav">
 	<ul class="item-list">
 		<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
 		<li class="item"><a href="#/other/other~2">常见问题</a></li>
 		<li class="item"><a href="#/other/other~3">就医指南</a></li>
 		<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
 	</ul>
-</div>
+</div> *}

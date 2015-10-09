@@ -80,103 +80,61 @@
     margin:0px auto;
     height:45px;
     line-height: 45px;
-    font-size:2.5em;
+
     text-align:center;
     border-bottom:1px solid #E1E1E1;
     .title{
       float: left;
+      font-size:3em;
       margin-left:3%;
       color: #656565;
     }
     .more{
       display: block;
       float:right;
+      font-size:2.5em;
       margin-right:3%;
       color:#B6B6B6;
     }
    }
    //case-list:详见下面case-item
   }
-
-/*bottom navgation start*/
-  .content-bom{
-    width: 100%;
-    margin-bottom:200px;
-    .bom-con{
-       width: 100%;
-       line-height: 25px;
-       list-style: none;
-       padding: 0px;
-       margin:0px;
-       li{
-         height:25px;
-       }
-       li:first-child{
-         margin-left:5%;
-       }
-
-    }
-    .flex-box{
-      display:-webkit-flex;
-      display: flex;
-      -webkit-flex-flow: row wrap;
-      flex-flow: row wrap;
-    }
-  }
-/*bottom navgation end*/
-
-}
-
-/*bottom navgation start*/
-.case-item{
-   width: 100%;
-   padding: 0px;
-   margin:0px;
-  li{
-    width:100%;
-    height:auto;
-    min-height: 80px;
-    max-height:160px;
-    margin-top:1em;
-    margin-bottom:1em;
-    padding-bottom:1em;
-    border-bottom:1px solid #E1E1E1;
-    display: inline-block;
-    img{
-      width: 50%;
-      margin-left:3%;
+  .case-item{
+     width: 100%;
+     padding: 0px;
+     margin:0px;
+    li{
+      width:100%;
+      height:auto;
+      // min-height: 80px;
+      // max-height:160px;
+      margin-top:1em;
+      // margin-bottom:1em;
+      padding-bottom:0.5em;
+      border-bottom:1px solid #E1E1E1;
       display: inline-block;
-    }
-    article{
-      display: inline-block;
-      margin-left:6%;
-      vertical-align: top;
-      padding-top:1em;
-      line-height: 2em;
-      h3{
-        width:100%;
-        font-weight: blod;
-        font-size:3em;
+      img{
+        width: 50%;
+        margin-left:3%;
+        display: inline-block;
       }
-      dd{
-        width:100%;
-        font-size:2em;
+      article{
+        display: inline-block;
+        margin-left:6%;
+        vertical-align: top;
+        padding-top:2em;
+        line-height: 4em;
+        h3{
+          width:100%;
+          color:#2F2F2F;
+          font-size:3em;
+        }
+        dd{
+          width:100%;
+          color:#656565;
+          font-size:2em;
+        }
       }
     }
   }
 }
-
-.flex-cell{
-  -webkit-flex: 1 23%;
-  flex: 1 23%;
-}
-
-
-
-
-// @media (min-width: 320px) and (max-width: 375px) {
-//   .flex-cell{
-//     -webkit-flex: 1 35%;
-//     flex: 1 35%;
-//   }
-// }
