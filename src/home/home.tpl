@@ -60,7 +60,7 @@
      <section class="content-case">
        <dt class="case-title">
          <p class="title">最新病例 New case</p>
-         <span class="more"> 查看全部 > </span>
+         <span class="more"> <a href="#/detail/detail~8">查看全部 ></a> </span>
        </dt>
        <ul class="case-item">
          <li>

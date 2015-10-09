@@ -19,7 +19,7 @@
 <div class="region">
 	<span class="hint">全球最新一代心脏支架</span>
 	<span class="region-view">
-		<i class="current-region">就医地域：${region}</i>更多<i class="more-icon"></i>
+		<i class="current-region">就医地域：${region}</i><a href="#/detail/detail~7" style="color:#fff;">更多<i class="more-icon"></a></i>
 	</span>
 </div>
 <div class="nav">
@@ -56,27 +56,27 @@
 	<!-- elif: ${types} == 2-->
 		<div class="type2">
 			<img src="${path}/common/img/special-death.jpg" alt="" class="special-death">
-			<a href="javascript:alert(11)" class="special-death-a"></a>
+			<a href="#/detail/detail~1" class="special-death-a"></a>
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-attack.jpg" alt="attack" class="special-attack">
-			<a href="javascript:alert(22)" class="special-attack-a"></a>
+			<a href="#/detail/detail~2" class="special-attack-a"></a>
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-cures.jpg" alt="cures" class="special-cures">
-			<a href="javascript:alert(33)" class="special-cures-a"></a>
+			<a href="#/detail/detail~3" class="special-cures-a"></a>
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-resonance.jpg" alt="resonance" class="pecial-resonance">
-			<a href="javascript:alert(44)" class="pecial-resonance-a"></a>
+			<a href="#/detail/detail~4" class="pecial-resonance-a"></a>
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-regain.jpg" alt="regain" class="special-regain">
-			<a href="javascript:alert(55)" class="special-regain-a"></a>
+			<a href="#/detail/detail~5" class="special-regain-a"></a>
 		</div>
 		<div class="type2">
 			<img src="${path}/common/img/special-affect.jpg" alt="affect" class="special-affect">
-			<a href="javascript:alert(66)" class="special-affect-a"></a>
+			<a href="#/detail/detail~6" class="special-affect-a"></a>
 		</div>
 	<!-- elif: ${types} == 3-->
 		<hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
