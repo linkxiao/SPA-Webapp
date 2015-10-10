@@ -1,0 +1,1 @@
+function cpy(e,t){for(var n in t)if(t.hasOwnProperty(n))e[n]=t[n]}module.exports=function(e){for(var t,n=1;n<arguments.length;n++)if(t=arguments[n])cpy(e,t);else;return e};

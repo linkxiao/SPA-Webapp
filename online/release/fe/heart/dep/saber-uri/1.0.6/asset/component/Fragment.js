@@ -1,0 +1,1 @@
+define("saber-uri/component/Fragment",["require","saber-lang/inherits","./Abstract"],function(require){function e(e){n.call(this,e)}var t=require("saber-lang/inherits"),n=require("./Abstract"),r="#";return t(e,n),e.prototype.toString=function(e){return e=e||r,this.data?e+this.data:""},e});

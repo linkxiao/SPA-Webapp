@@ -1,0 +1,1 @@
+define("saber-dom/data",[],function(){var exports={},e="data-";return exports.setData=function(t,n,r){t.setAttribute(e+n,r)},exports.getData=function(t,n){return t.getAttribute(e+n)},exports.removeData=function(t,n){t.removeAttribute(e+n)},exports});

@@ -1,0 +1,1 @@
+define("saber-uri/component/Host",["require","saber-lang/inherits","./Abstract"],function(require){function e(e){n.call(this,e)}var t=require("saber-lang/inherits"),n=require("./Abstract");return t(e,n),e.prototype.set=function(e){e=e||"",this.data=e.toLowerCase()},e.prototype.equal=function(t){if(t instanceof e)t=t.get();else t=t||"";return this.data===t.toLowerCase()},e});

@@ -1,0 +1,1 @@
+module.exports=function(e){for(var t=[],n=1;n<arguments.length;n++)t.push(arguments[n]);return function(){for(var n=t.slice(0),r=0;r<arguments.length;r++)n.push(arguments[r]);return e.apply(this,n)}};

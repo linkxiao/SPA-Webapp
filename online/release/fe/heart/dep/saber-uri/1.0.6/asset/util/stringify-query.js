@@ -1,0 +1,1 @@
+define("saber-uri/util/stringify-query",[],function(){function e(e){var t,n=[];return Object.keys(e).forEach(function(r){if(t=e[r],!Array.isArray(t))t=[t];t.forEach(function(e){if(null===e)n.push(r);else n.push(r+"="+encodeURIComponent(e||""))})}),n.join("&")}return e});

@@ -1,0 +1,1 @@
+define("other/otherModel",["require","saber-promise","global/path"],function(require){var e=require("saber-promise"),t={};return t.fetch=function(){var t=require("global/path"),n={path:t};return e.resolved(n)},t});

@@ -1,0 +1,1 @@
+define("saber-firework/extension/isomorphic",["require","../config","saber-router","saber-router/controller/popstate"],function(require){var e=require("../config");e.isomorphic=!0;var t=require("saber-router");t.controller(require("saber-router/controller/popstate")),e.router=t});

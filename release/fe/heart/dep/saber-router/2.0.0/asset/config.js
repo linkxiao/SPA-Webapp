@@ -1,0 +1,1 @@
+define("saber-router/config",[],{index:"",path:"/",root:""});

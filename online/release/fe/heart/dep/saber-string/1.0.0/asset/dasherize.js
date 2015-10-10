@@ -1,0 +1,1 @@
+define("saber-string/dasherize",[],function(){function e(e){return e.trim().replace(/([A-Z])/g,"-$1").replace(/[-_\s]+/g,"-").toLowerCase()}return e});

@@ -1,0 +1,1 @@
+define("saber-uri/main",["require","./URI","./util/uri-parser","./component/Path"],function(require){var e=require("./URI"),exports=function(t){return new e(t)};return exports.parse=require("./util/uri-parser"),exports.resolve=require("./component/Path").resolve,exports}),define("saber-uri",["saber-uri/main"],function(e){return e});

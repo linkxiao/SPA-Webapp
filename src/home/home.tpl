@@ -23,7 +23,7 @@
 
      <div class="container">
       <section class="content-banner">
-        <img src="${path}/common/img/home-banner.jpg"/>
+        <a href="#/item/item~1"><img src="${path}/common/img/home-banner.jpg"/></a>
       </section>
 
       <nav class="content-nav">
@@ -66,32 +66,32 @@
          <li>
            <img src="${path}/common/img/case01.jpg"/>
            <article>
-             <h3>冠心病</h3>
-             <dd>王先生 年龄:25</dd>
+             <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+             <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
            </article>
          </li>
 
          <li>
-           <img src="${path}/common/img/case01.jpg"/>
+           <img src="${path}/common/img/case02.jpg"/>
            <article>
-             <h3>冠状动脉硬化</h3>
-             <dd>王先生 年龄:25</dd>
+           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
            </article>
          </li>
 
          <li>
-           <img src="${path}/common/img/case01.jpg"/>
+           <img src="${path}/common/img/case03.jpg"/>
            <article>
-             <h3>冠状动脉硬化</h3>
-             <dd>王先生 年龄:25</dd>
+           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
            </article>
          </li>
 
          <li>
-           <img src="${path}/common/img/case01.jpg"/>
+           <img src="${path}/common/img/case04.jpg"/>
            <article>
-             <h3>冠状动脉硬化</h3>
-             <dd>王先生 年龄:25</dd>
+           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
            </article>
          </li>
        </ul>
@@ -114,9 +114,9 @@
       </h5>
       <section>
         <aside>
-          <a href="400-800-0000" target="_blank"><img src="${path}/common/img/icon-phone.png" /></a>
+          <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
           <p>
-            <strong><a target"_self">400-800-0000</a></strong> <br/> 立即咨询
+            <strong><a href="tel:400-184-6606">400-184-6606</a></strong> <br/> 立即咨询
           </p>
         </aside>
         <div class="qrcode">

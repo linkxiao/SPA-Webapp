@@ -1,0 +1,1 @@
+define(["require","./inherits","./extend","./curry","./bind"],function(require){return{inherits:require("./inherits"),extend:require("./extend"),curry:require("./curry"),bind:require("./bind")}});

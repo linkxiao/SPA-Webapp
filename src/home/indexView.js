@@ -2,7 +2,6 @@
 
 define(function (require) {
   var dom = require('saber-dom');
-  var env = require('global/env');
   var path=require("global/path");
   var sliderImg=require("../plugin/slide/1.0/slide-img");
   var config = {};
