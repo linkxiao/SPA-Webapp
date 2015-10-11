@@ -64,35 +64,43 @@
        </dt>
        <ul class="case-item">
          <li>
-           <img src="${path}/common/img/case01.jpg"/>
-           <article>
-             <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-             <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
-           </article>
+            <a href="#/detail/detail~9">
+              <img src="${path}/common/img/case01.jpg"/>
+              <article>
+                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+              </article>
+            </a>
          </li>
 
          <li>
-           <img src="${path}/common/img/case02.jpg"/>
-           <article>
-           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
-           </article>
+            <a href="#/detail/detail~9">
+              <img src="${path}/common/img/case01.jpg"/>
+              <article>
+                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+              </article>
+            </a>
          </li>
 
          <li>
-           <img src="${path}/common/img/case03.jpg"/>
-           <article>
-           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
-           </article>
+            <a href="#/detail/detail~9">
+              <img src="${path}/common/img/case01.jpg"/>
+              <article>
+                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+              </article>
+            </a>
          </li>
 
          <li>
-           <img src="${path}/common/img/case04.jpg"/>
-           <article>
-           <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-           <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
-           </article>
+            <a href="#/detail/detail~9">
+              <img src="${path}/common/img/case01.jpg"/>
+              <article>
+                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
+                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+              </article>
+            </a>
          </li>
        </ul>
      </section>
