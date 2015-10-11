@@ -80,21 +80,27 @@
     margin:0px auto;
     height:45px;
     line-height: 45px;
-
     text-align:center;
     border-bottom:1px solid #E1E1E1;
     .title{
       float: left;
       font-size:3em;
-      margin-left:3%;
+      margin-left:2%;
       color: #656565;
     }
     .more{
       display: block;
       float:right;
-      font-size:2.5em;
+      padding-right:20px;
+      padding-left:10px;
+      background:url("../common/img/arrow-right.png") no-repeat 88px 14px;
+      background-size: 9%;
+      font-size:2.8em;
       margin-right:3%;
-      color:#B6B6B6;
+      color:#B7B7B7;
+      a{
+        color:#B7B7B7;
+      }
     }
    }
    //case-list:详见下面case-item
@@ -106,35 +112,63 @@
     li{
       width:100%;
       height:auto;
-      // min-height: 80px;
-      // max-height:160px;
       margin-top:1em;
-      // margin-bottom:1em;
       padding-bottom:0.5em;
       border-bottom:1px solid #E1E1E1;
       display: inline-block;
       img{
-        width: 50%;
-        margin-left:3%;
+        width: 38%;
+        margin-left:2%;
         display: inline-block;
       }
       article{
         display: inline-block;
-        margin-left:4%;
+        margin-left:3%;
         vertical-align: top;
-        padding-top:2em;
-        line-height: 4em;
+        margin-top:1em;
+        // line-height: 4em;
         h3{
           width:100%;
           color:#2F2F2F;
-          font-size:2em;
+          font-size:2.2em;
         }
         dd{
           width:100%;
           color:#656565;
+          margin-top:1em;
           font-size:1.8em;
         }
       }
     }
   }
+}
+
+
+@media screen and (max-width: 375px) {
+  .container{
+      .case-item{
+         width: 100%;
+         padding: 0px;
+         margin:0px;
+        li{
+          margin-top:1em;
+          padding-bottom:0.5em;
+          img{
+            width: 30%;
+            margin-left:3%;
+            display: inline-block;
+          }
+          article{
+              margin-left:3%;
+            h3{
+              font-size:2em;
+            }
+            dd{
+              margin-top:0.6em;
+              font-size:1.8em;
+            }
+          }
+        }
+      }
+   }
 }

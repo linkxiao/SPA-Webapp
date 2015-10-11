@@ -60,22 +60,22 @@
      <section class="content-case">
        <dt class="case-title">
          <p class="title">最新病例 New cases</p>
-         <span class="more"> <a href="#/detail/detail~8">查看全部 ></a> </span>
+         <span class="more"> <a href="#/detail/detail~8">查看全部</a> </span>
        </dt>
        <ul class="case-item">
          <li>
             <a href="#/detail/detail~9">
               <img src="${path}/common/img/case01.jpg"/>
               <article>
-                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+                <h3>可溶解支架&nbsp;&nbsp;让我不用做“钢铁侠”</h3>
+                <dd>王先生 &nbsp;&nbsp; 年龄:54</dd>
               </article>
             </a>
          </li>
 
          <li>
             <a href="#/detail/detail~9">
-              <img src="${path}/common/img/case01.jpg"/>
+              <img src="${path}/common/img/case02.jpg"/>
               <article>
                 <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
                 <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
@@ -85,7 +85,7 @@
 
          <li>
             <a href="#/detail/detail~9">
-              <img src="${path}/common/img/case01.jpg"/>
+              <img src="${path}/common/img/case03.jpg"/>
               <article>
                 <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
                 <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
@@ -95,7 +95,7 @@
 
          <li>
             <a href="#/detail/detail~9">
-              <img src="${path}/common/img/case01.jpg"/>
+              <img src="${path}/common/img/case04.jpg"/>
               <article>
                 <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
                 <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>

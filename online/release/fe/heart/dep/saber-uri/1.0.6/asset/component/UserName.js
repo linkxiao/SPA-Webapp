@@ -1,1 +1,0 @@
-define("saber-uri/component/UserName",["require","saber-lang/inherits","./Abstract"],function(require){function e(e){n.call(this,e)}var t=require("saber-lang/inherits"),n=require("./Abstract");return t(e,n),e});

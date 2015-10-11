@@ -1,1 +1,0 @@
-define("home/index",["require","saber-lang/type","saber-dom","./indexView","./indexModel"],function(require){var e=(require("saber-lang/type"),require("saber-dom"),{});return e.logData={cat:"home"},e.view=require("./indexView"),e.model=require("./indexModel"),e});

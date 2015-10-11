@@ -1,1 +1,0 @@
-function View(e){Abstract.call(this,e)}var inherits=require("saber-lang").inherits,Abstract=require("./AbstractView");inherits(View,Abstract),module.exports=View;

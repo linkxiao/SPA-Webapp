@@ -1,1 +1,0 @@
-define("saber-mm/plugin/gesture",["require","hammer","../event"],function(require){function e(){}var t=require("hammer"),r=require("../event"),n={};n.init=function(){t(document.body)},n.detect=function(){return!1},n.on=e,n.off=e,r.register(n)});

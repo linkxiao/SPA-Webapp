@@ -1,1 +1,0 @@
-define("saber-firework/config",[],{index:"",path:"/",root:"",template:[],templateConfig:{},templateData:{},isomorphic:!1,syncDataKey:"__rebas__",viewport:{transition:!1},processor:{transition:!1},timeout:1e3});

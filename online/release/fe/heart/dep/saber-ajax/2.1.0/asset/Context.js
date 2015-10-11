@@ -1,1 +1,0 @@
-define("saber-ajax/Context",["require","./AbstractContext","saber-lang"],function(require){function t(t){e.call(this,t)}var e=require("./AbstractContext"),n=require("saber-lang").inherits;return n(t,e),t});

@@ -1,1 +1,0 @@
-define("saber-run/main",["require","saber-lang/extend","./Animation","./transition","./util"],function(require){var e=require("saber-lang/extend"),t=require("./Animation"),exports={};return e(exports,require("./transition")),e(exports,require("./util")),exports.animation=function(e,n){return new t(e,n)},exports}),define("saber-run",["saber-run/main"],function(e){return e});
