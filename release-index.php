@@ -16,7 +16,7 @@ $smarty->assign('tplData', array(
         "bannerImg"=>array(//配置banner路径，方便以后对banner维护
           0     => array('img' => './release/fe/heart/asset/common/img/banner1.jpg', 'link'=>'#/item/item~1'),
           1     => array('img' => './release/fe/heart/asset/common/img/banner2.jpg', 'link'=>'#/item/item~2'),
-          2     => array('img' => './release/fe/heart/asset/common/img/banner1.jpg', 'link'=>'#/other/other~3'),
+          2     => array('img' => './release/fe/heart/asset/common/img/banner3.jpg', 'link'=>'#/other/other~3'),
         )
     ),
     'region'=> '新加坡'//动态配置region，方便以后扩展地域

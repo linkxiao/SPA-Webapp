@@ -73,6 +73,9 @@ header{
        li{
          height:55px;
 				 -webkit-flex:0 1 auto;//flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。
+				 -moz-flex:0 1 auto;
+				 -o-flex:0 1 auto;
+				 -ms-flex:0 1 auto;
 				 flex:0 1 auto;
          a{
            color:#B2B2B2;
@@ -85,11 +88,20 @@ header{
     }
     .flex-box{
       display:-webkit-flex; /* Safari,Chrome */
+			display:-moz-flex;
+			display:-o-flex;
+		  display:-ms-flex;
       display: flex;
       -webkit-flex-flow: row nowrap;
+			-moz-flex-flow: row nowrap;
+			-o-flex-flow: row nowrap;
+			-ms-flex-flow: row nowrap;
       flex-flow: row nowrap;
 			-webkit-justify-content: space-around;//设置对齐方式，即:每个项目两侧的间隔相等,且项目之间的间隔比项目与边框的间隔大一倍。
-      justify-content: space-around;//设置对齐方式，即:每个项目两侧的间隔相等,且项目之间的间隔比项目与边框的间隔大一倍。
+			-moz-justify-content: space-around;
+			-o-justify-content: space-around;
+			-ms-justify-content: space-around;
+			justify-content: space-around;//设置对齐方式，即:每个项目两侧的间隔相等,且项目之间的间隔比项目与边框的间隔大一倍。
     }
 		h5{
 			width: 100%;
@@ -122,11 +134,11 @@ header{
 				}
 				p{
 					float: left;
-					margin-top:8px;
-					margin-left:10px;
+					margin-top:18px;
+					margin-left:6px;
 					font-size: 1.2em;
 					strong{
-						font-size:2.8em;
+						font-size:3em;
 						font-weight: bold;
 						a{
               color:#fff;

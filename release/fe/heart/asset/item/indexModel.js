@@ -1,1 +1,0 @@
-define("item/indexModel",["require","saber-promise","global/path","global/region"],function(require){var e=require("saber-promise"),t={};return t.fetch=function(){var t=require("global/path"),n=require("global/region"),i={path:t,region:n};return e.resolved(i)},t});

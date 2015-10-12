@@ -1,1 +1,0 @@
-exports.METHOD={GET:"GET",POST:"POST"};

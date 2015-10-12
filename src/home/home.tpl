@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="${path}/home/home.less">
-
    <header>
      <span class="logo"></span>
    </header>
@@ -68,37 +67,37 @@
               <img src="${path}/common/img/case01.jpg"/>
               <article>
                 <h3>可溶解支架&nbsp;&nbsp;让我不用做“钢铁侠”</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:54</dd>
+                <dd>王先生 &nbsp;&nbsp; 年龄:46</dd>
               </article>
             </a>
          </li>
 
          <li>
-            <a href="#/detail/detail~9">
+            <a href="#/detail/detail~9＝10">
               <img src="${path}/common/img/case02.jpg"/>
               <article>
-                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+                <h3>可溶解支架，让我不用做“钢铁侠”</h3>
+                <dd>李先生 &nbsp;&nbsp; 年龄:53岁</dd>
               </article>
             </a>
          </li>
 
          <li>
-            <a href="#/detail/detail~9">
+            <a href="#/detail/detail~11">
               <img src="${path}/common/img/case03.jpg"/>
               <article>
-                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+                <h3>心里的“钉子”不再增加</h3>
+                <dd>杨先生 &nbsp;&nbsp; 年龄:60岁</dd>
               </article>
             </a>
          </li>
 
          <li>
-            <a href="#/detail/detail~9">
+            <a href="#/detail/detail~12">
               <img src="${path}/common/img/case04.jpg"/>
               <article>
-                <h3>冠状动脉硬化&nbsp;&nbsp;狭窄75%</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:24</dd>
+                <h3>“更年期”症状，也可以手术治好</h3>
+                <dd>夏女士 &nbsp;&nbsp; 年龄:24</dd>
               </article>
             </a>
          </li>
@@ -124,7 +123,7 @@
         <aside>
           <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
           <p>
-            <strong><a href="tel:400-184-6606">400-184-6606</a></strong> <br/> 立即咨询
+            <strong><a href="tel:400-184-6606">400-184-6606</a></strong> <br/>
           </p>
         </aside>
         <div class="qrcode">

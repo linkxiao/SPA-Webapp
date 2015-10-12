@@ -1,1 +1,0 @@
-module.exports=function(e,t){var n=function(){};n.prototype=t.prototype;var r=new n;return Object.keys(e.prototype).forEach(function(t){r[t]=e.prototype[t]}),r.constructor=e,e.prototype=r,e};

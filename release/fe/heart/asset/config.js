@@ -1,1 +1,0 @@
-define("config",["require","./home/index","./item/index","./detail/detail","./other/other"],function(require){return[{path:"/home/index",action:require("./home/index")},{path:"/item/item",action:require("./item/index")},{path:"/detail/detail",action:require("./detail/detail")},{path:"/other/other",action:require("./other/other")}]});

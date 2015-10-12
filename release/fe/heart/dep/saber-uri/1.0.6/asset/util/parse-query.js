@@ -1,1 +1,0 @@
-define("saber-uri/util/parse-query",[],function(){function e(e){var t={};e=e.split("&");var n,r;return e.forEach(function(e){if(e)if(e=e.split("="),n=e[0],r=e.length>=2?decodeURIComponent(e[1]):null,t[n]){if(!Array.isArray(t[n]))t[n]=[t[n]];t[n].push(r)}else t[n]=r}),t}return e});

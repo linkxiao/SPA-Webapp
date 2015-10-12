@@ -1,1 +1,0 @@
-define("saber-ajax/const",["require","exports","module"],function(require,exports){exports.METHOD={GET:"GET",POST:"POST"}});
