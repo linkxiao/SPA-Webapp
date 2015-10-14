@@ -21,12 +21,12 @@
 	<img src="${path}/common/img/about_header.jpg">
 	<div class="wrap-text">
 		<h1>法兰医疗（ falanmed.com ）</h1>
-		<h2>公司介绍 <span>Company</span></h2>
+		<h2>公司介绍 <br><span>Company</span></h2>
 		<p>法兰医疗是中国领先的精准医疗服务平台，根据客户需求在全球范围内寻找最匹配医疗方案。公司总部位于北京，在巴黎、首尔、休斯顿、新加坡、东京设有服务中心。</p>
 		<p>法兰医疗致力于打破医疗信息、语言及地域的藩篱，通过科技来改变人们的就医方式，促进全球医疗资源平等化、便捷化，使每个人都能自由获取全球最新医疗信息，平等地获取全球最先进的医疗照护。</p>
 		<p>法兰医疗通过技术平台有效匹配国内外患者的医疗服务需求和医疗资源。对患者而言，法兰医疗通过网站及移动端的全平台覆盖，随时随地为其提供国内外专家预约、就医陪诊、健康体检、会员健康管理等多种医疗健康服务，帮助患者快捷找到最佳诊疗及健康方案。</p>
 		<p>法兰医疗拥有全职医生团队及专业的国际医疗转诊团队。只需要简单三步，就可以让患者获得轻松、安心、精准的医疗服务。</p>
-		<h2>公司业务 <span>Company business</span></h2>
+		<h2>公司业务 <br><span>Company business</span></h2>
 		<ul class="service-list">
 			<li>出国看病全程管理</li>
 			<li>免费医疗方案咨询</li>
@@ -38,7 +38,7 @@
 	</div>
 	<img src="${path}/common/img/about_resourse_fenbu.jpg">
 	<div class="wrap-text">
-		<h2>部分顶级合作医院 <span>Part of the top cooperative hospital</span></h2>
+		<h2>部分顶级合作医院 <br><span>Part of the top cooperative hospital</span></h2>
 		<h1>亚太医疗资源</h1>
 		<ul class="resource-list">
 			<li><img src="${path}/common/img/about_asia_1.jpg" alt=""><p>国内20家顶级三甲医院</p></li>
@@ -137,11 +137,11 @@
 
 <hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
 <footer>
-   <ul class="footer-con flex-box">
-   <li class="flex-cell"><a href="#/other/other~1">关于我们</a></li>
-   <li class="flex-cell"><a href="#/other/other~2">常见问题</a></li>
-   <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
-   <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
+	<ul class="item-list footer-list">
+	<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+	<li class="item"><a href="#/other/other~2">常见问题</a></li>
+	<li class="item"><a href="#/other/other~3">就医指南</a></li>
+	<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
    </ul>
    <h5>
      @2015 法兰医疗 版权所有,未经授权禁止复制

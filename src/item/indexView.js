@@ -12,6 +12,35 @@ define(function (require) {
     config.template = require('./item.tpl');
     config.events = {
         ready: function () {
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+
+            document.addEventListener('touchstart',touchStart, false);
+            //document.addEventListener('touchmove',touch, false);
+            document.addEventListener('touchend',touchEnd, false);
+
+            var clientX = -1;
+            var clientY = -1;
+             
+            function touchStart(event) {
+                clientX = event.touches[0].clientX;
+                clientY = event.touches[0].clientY;
+            }
+
+            function touchEnd(event) {
+                if (event.changedTouches[0].clientX - clientX > 10) {
+                    var navIndex =  Number(dom.query('.selected').getAttribute('data-value'))-1;
+                    navIndex >= 0 ? dom.queryAll('.nav .item a')[navIndex].click() : "";
+                }
+
+                if (event.changedTouches[0].clientX - clientX < -10) {
+                    var navIndex =  Number(dom.query('.selected').getAttribute('data-value'))+1;
+                    navIndex <= 3 ? dom.queryAll('.nav .item a')[navIndex].click() : "";
+                }
+
+                clientX = -1;
+                clientY = -1;
+            }
 
             (rederNav = function() {
                 //控制导航的间距

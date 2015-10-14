@@ -208,32 +208,33 @@
 		</tr>
 		<tr>
 			<td>
-				北京<span class="arrow-up">收起详情<i></i></span><br>
-				<div class="time-info">
-					飞行时间：6:05-6:20<br>
-					票价区间：4000-5000<br>
-					可选航班：<br>
-					CA969、CA975、CA629、
-					SQ807、SQ801、SQ805
-				</div>
+				<p>
+					北京<span class="arrow-up">收起详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：6:05-6:20<br>
+						票价区间：4000-5000<br>
+						可选航班：<br>
+						CA969、CA975、CA629、
+						SQ807、SQ801、SQ805
+					</span>
+				</p>
+				<p>
+					上海<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+					</span>
+				</p>
 			</td>
 			<td>
-				北京<span class="arrow-up">收起详情<i></i></span><br>
-				<div class="time-info">
-					飞行时间：10:35-11:15<br>
-					票价区间：9800-15000<br>
-					可选航班：<br>
-					CA937、CA855、BA038
-				</div>
+				<p>
+					北京<span class="arrow-up">收起详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：10:35-11:15<br>
+						票价区间：9800-15000<br>
+						可选航班：<br>
+						CA937、CA855、BA038
+					</span>
+				</p>
 			</td>
-		</tr>
-		<tr>
-			<td>
-				上海<span class="arrow-down">展开详情<i></i></span><br>
-				<div class="time-info">
-				</div>
-			</td>
-			<td></td>
 		</tr>
 	</table>
 </div>
@@ -369,11 +370,11 @@
 
 <hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
 <footer>
-   <ul class="footer-con flex-box">
-   <li class="flex-cell"><a href="#/other/other~1">关于我们</a></li>
-   <li class="flex-cell"><a href="#/other/other~2">常见问题</a></li>
-   <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
-   <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
+	<ul class="item-list footer-list">
+	<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+	<li class="item"><a href="#/other/other~2">常见问题</a></li>
+	<li class="item"><a href="#/other/other~3">就医指南</a></li>
+	<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
    </ul>
    <h5>
      @2015 法兰医疗 版权所有,未经授权禁止复制

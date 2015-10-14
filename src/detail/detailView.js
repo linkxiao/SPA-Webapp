@@ -12,6 +12,8 @@ define(function (require) {
     config.template = require('./detail.tpl');
     config.events = {
         ready: function () {
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
 
             (rederNav = function() {
                 //控制导航的间距

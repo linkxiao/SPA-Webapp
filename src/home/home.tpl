@@ -73,7 +73,7 @@
          </li>
 
          <li>
-            <a href="#/detail/detail~9＝10">
+            <a href="#/detail/detail~10">
               <img src="${path}/common/img/case02.jpg"/>
               <article>
                 <h3>可溶解支架，让我不用做“钢铁侠”</h3>
@@ -110,11 +110,17 @@
 
 
    <footer>
-      <ul class="footer-con flex-box">
+      <!-- <ul class="footer-con flex-box">
       <li class="flex-cell"><a href="#/other/other~1">关于我们</a></li>
       <li class="flex-cell"><a href="#/other/other~2">常见问题</a></li>
       <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
       <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
+      </ul> -->
+      <ul class="item-list footer-list">
+      <li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+      <li class="item"><a href="#/other/other~2">常见问题</a></li>
+      <li class="item"><a href="#/other/other~3">就医指南</a></li>
+      <li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
       </ul>
       <h5>
         @2015 法兰医疗 版权所有,未经授权禁止复制

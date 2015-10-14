@@ -29,7 +29,21 @@ define(function (require) {
               dom.query('#photo').style.height = h+'px';
             })();
 
+            (rederNav = function() {
+                //控制导航的间距
+                var winWidth = window.innerWidth;
+                //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
+                var blank    = (winWidth - 18 * 2 - 50 * 4) / 3 / 2;
 
+                var oLis = dom.queryAll('.item-list a');
+                var len  = oLis.length;
+
+                for (var i = 0; i < len; i++) {
+                    dom.setStyle(oLis[i], 'padding', '0px ' + blank + 'px');
+                }
+            })();
+
+            window.onresize = rederNav;
          }
        }
 

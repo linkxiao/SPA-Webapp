@@ -25,22 +25,22 @@
 <div class="nav">
 	<ul class="item-list">
 		<!-- if: ${types} == 1-->
-			<li class="first-item item"><a href="javascript:void(0)" class="selected">支架设计</a></li>
+			<li class="first-item item"><a href="javascript:void(0)" class="selected" data-value="0">支架设计</a></li>
 		<!-- else-->
 			<li class="first-item item"><a href="#/item/item~1">支架设计</a></li>
 		<!-- /if-->
 		<!-- if: ${types} == 2-->
-			<li class="item"><a href="javascript:void(0)" class="selected">优势特点</a></li>
+			<li class="item"><a href="javascript:void(0)" class="selected" data-value="1">优势特点</a></li>
 		<!-- else-->
 			<li class="item"><a href="#/item/item~2">优势特点</a></li>
 		<!-- /if-->
 		<!-- if: ${types} == 3-->
-			<li class="item"><a href="javascript:void(0)" class="selected">数据对比</a></li>
+			<li class="item"><a href="javascript:void(0)" class="selected" data-value="2">数据对比</a></li>
 		<!-- else-->
 			<li class="item"><a href="#/item/item~3">数据对比</a></li>
 		<!-- /if-->
 		<!-- if: ${types} == 4-->
-			<li class="last-item item"><a href="javascript:void(0)" class="selected">术后变化</a></li>
+			<li class="last-item item"><a href="javascript:void(0)" class="selected" data-value="3">术后变化</a></li>
 		<!-- else-->
 			<li class="last-item item"><a href="#/item/item~4">术后变化</a></li>
 		<!-- /if-->
@@ -140,11 +140,11 @@
 
 
 <footer>
-   <ul class="footer-con flex-box">
-   <li class="flex-cell"><a href="#/other/other~1">关于我们</a></li>
-   <li class="flex-cell"><a href="#/other/other~2">常见问题</a></li>
-   <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
-   <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
+	<ul class="item-list footer-list">
+	<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+	<li class="item"><a href="#/other/other~2">常见问题</a></li>
+	<li class="item"><a href="#/other/other~3">就医指南</a></li>
+	<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
    </ul>
    <h5>
      @2015 法兰医疗 版权所有,未经授权禁止复制
