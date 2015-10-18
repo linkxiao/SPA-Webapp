@@ -23,7 +23,7 @@
 	</span>
 </div>
 <div class="nav">
-	<ul class="item-list">
+	<ul class="item-con">
 		<!-- if: ${types} == 1-->
 			<li class="first-item item"><a href="javascript:void(0)" class="selected" data-value="0">支架设计</a></li>
 		<!-- else-->
@@ -140,20 +140,20 @@
 
 
 <footer>
-	<ul class="item-list footer-list">
-	<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
-	<li class="item"><a href="#/other/other~2">常见问题</a></li>
-	<li class="item"><a href="#/other/other~3">就医指南</a></li>
-	<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
-   </ul>
+<ul class="item-con footer-list">
+<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
+<li class="item"><a href="#/other/other~2">常见问题</a></li>
+<li class="item"><a href="#/other/other~3">就医指南</a></li>
+<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
+</ul>
    <h5>
      @2015 法兰医疗 版权所有,未经授权禁止复制
    </h5>
    <section>
      <aside>
-       <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+       <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
        <p>
-         <strong><a href="tel:400-184-6606">400-184-6606</a></strong> 
+         <strong><a href="tel:400-187-6606">400-187-6606</a></strong>
        </p>
      </aside>
      <div class="qrcode">

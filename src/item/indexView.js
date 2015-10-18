@@ -21,7 +21,7 @@ define(function (require) {
 
             var clientX = -1;
             var clientY = -1;
-             
+
             function touchStart(event) {
                 clientX = event.touches[0].clientX;
                 clientY = event.touches[0].clientY;
@@ -30,12 +30,12 @@ define(function (require) {
             function touchEnd(event) {
                 if (event.changedTouches[0].clientX - clientX > 10) {
                     var navIndex =  Number(dom.query('.selected').getAttribute('data-value'))-1;
-                    navIndex >= 0 ? dom.queryAll('.nav .item a')[navIndex].click() : "";
+                    navIndex >= 0 ? dom.queryAll('.nav .item-con a')[navIndex].click() : "";
                 }
 
                 if (event.changedTouches[0].clientX - clientX < -10) {
                     var navIndex =  Number(dom.query('.selected').getAttribute('data-value'))+1;
-                    navIndex <= 3 ? dom.queryAll('.nav .item a')[navIndex].click() : "";
+                    navIndex <= 3 ? dom.queryAll('.nav .item-con a')[navIndex].click() : "";
                 }
 
                 clientX = -1;
@@ -46,9 +46,9 @@ define(function (require) {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
                 //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
-                var blank    = (winWidth - 18 * 2 - 50 * 4) / 3 / 2;
+                var blank    = (winWidth - 12 * 2 - 70 * 4) / 3 / 2;
 
-                var oLis = dom.queryAll('.item a');
+                var oLis = dom.queryAll('.item-con a');
                 var len  = oLis.length;
 
                 for (var i = 0; i < len; i++) {

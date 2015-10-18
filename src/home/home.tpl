@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="${path}/home/home.less">
    <header>
      <span class="logo"></span>
    </header>
@@ -116,7 +115,7 @@
       <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
       <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
       </ul> -->
-      <ul class="item-list footer-list">
+      <ul class="footer-list item-con">
       <li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
       <li class="item"><a href="#/other/other~2">常见问题</a></li>
       <li class="item"><a href="#/other/other~3">就医指南</a></li>
@@ -127,13 +126,13 @@
       </h5>
       <section>
         <aside>
-          <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+          <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
           <p>
-            <strong><a href="tel:400-184-6606">400-184-6606</a></strong> <br/>
+            <strong><a href="tel:400-187-6606">400-187-6606</a></strong> <br/>
           </p>
         </aside>
         <div class="qrcode">
-          <img src="${path}/common/img/qrcode.png" />
+          <img src="${path}/common/img/qrcode.png"/>
           <p>
             扫描二维码 <br/>关注我们
           </p>

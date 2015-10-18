@@ -7,7 +7,6 @@ define(function (require) {
 
     var Resolver = require('saber-promise');
     var firework = require('saber-firework');
-
     // FIXME
     // Only For Debug
     // 关闭Promise的异常捕获，方便调试

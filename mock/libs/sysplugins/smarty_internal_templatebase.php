@@ -227,12 +227,12 @@ abstract class Smarty_Internal_TemplateBase extends Smarty_Internal_Data {
                     Smarty_Internal_Debug::start_cache($_template);
                 }
                 $_template->properties['has_nocache_code'] = false;
-                // get text between non-cached items
+                // get text between non-cached #/item/items
                 $cache_split = preg_split("!/\*%%SmartyNocache:{$_template->properties['nocache_hash']}%%\*\/(.+?)/\*/%%SmartyNocache:{$_template->properties['nocache_hash']}%%\*/!s", $_output);
-                // get non-cached items
+                // get non-cached #/item/items
                 preg_match_all("!/\*%%SmartyNocache:{$_template->properties['nocache_hash']}%%\*\/(.+?)/\*/%%SmartyNocache:{$_template->properties['nocache_hash']}%%\*/!s", $_output, $cache_parts);
                 $output = '';
-                // loop over items, stitch back together
+                // loop over #/item/items, stitch back together
                 foreach ($cache_split as $curr_idx => $curr_split) {
                     // escape PHP tags in template content
                     $output .= preg_replace('/(<%|%>|<\?php|<\?|\?>)/', '<?php echo \'$1\'; ?>', $curr_split);

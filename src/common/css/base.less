@@ -58,10 +58,46 @@ header{
 }
 
 /*footer start*/
+.item-con {
+	width: 100%;
+	list-style: none;
+	overflow: hidden;
+	.first-item {
+		a {
+			padding-left: 0px !important;
+		}
+	}
+	.item {
+		float: left;
+		a {
+			display: inline-block;
+			width: 70px;
+			height: 100%;
+		}
+	}
+	.last-item {
+		a {
+			padding-right: 0px !important;
+		}
+	}
+}
+.footer-list {
+	height: 55px;
+	line-height: 55px;
+	font-size: 1.3em;
+	color:#b2b2b2;
+	border-bottom:1px solid #E1E1E1;
+	padding-left: 12px;
+	a{
+	  font-size: 1.3em;
+		color:#b2b2b2;
+	}
+}
+
   footer{
     width: 100%;
     margin-bottom:0px;
-    .footer-con{
+    .footer-con{//第二种方案
        width: 100%;
        height: 55px;
        line-height: 55px;
@@ -135,8 +171,10 @@ header{
 				p{
 					float: left;
 					margin-top:18px;
-					margin-left:6px;
+				  margin-left:6px;
 					font-size: 1.2em;
+					// border-right:1px solid #fff;
+					//padding-right: 5px;
 					strong{
 						font-size:3em;
 						font-weight: bold;
@@ -149,6 +187,7 @@ header{
 			.qrcode{
 				display: inline-block;
 				height: 55px;
+				float: right;
 				img{
 					width: 36px;
 					height: 36px;
@@ -160,7 +199,7 @@ header{
 					font-size: 1.5em;
 					margin-top:10px;
 					line-height: 18px;
-					margin-left:15px;
+					margin-left:5px;
 				}
 			}
 		}

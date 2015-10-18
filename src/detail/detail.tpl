@@ -370,20 +370,20 @@
 
 <hr style="height:1px; border:none; border-top:1px solid #e1e1e1;">
 <footer>
-	<ul class="item-list footer-list">
-	<li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
-	<li class="item"><a href="#/other/other~2">常见问题</a></li>
-	<li class="item"><a href="#/other/other~3">就医指南</a></li>
-	<li class="last-item item"><a href="#/other/other~4">意见反馈</a></li>
+	<ul class="#/item/item-con footer-list">
+	<li class="first-#/item/item #/item/item"><a href="#/other/other~1">关于我们</a></li>
+	<li class="#/item/item"><a href="#/other/other~2">常见问题</a></li>
+	<li class="#/item/item"><a href="#/other/other~3">就医指南</a></li>
+	<li class="last-#/item/item #/item/item"><a href="#/other/other~4">意见反馈</a></li>
    </ul>
    <h5>
      @2015 法兰医疗 版权所有,未经授权禁止复制
    </h5>
    <section>
 	 <aside>
-		 <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+		 <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
 		 <p>
-			 <strong><a href="tel:400-184-6606">400-184-6606</a></strong>
+			 <strong><a href="tel:400-187-6606">400-187-6606</a></strong>
 		 </p>
 	 </aside>
      <div class="qrcode">

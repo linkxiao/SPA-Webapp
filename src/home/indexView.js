@@ -4,6 +4,8 @@ define(function (require) {
   var dom = require('saber-dom');
   var path=require("global/path");
   var sliderImg=require("../plugin/slide/1.0/slide-img");
+  var autoNav=require('../common/base/base');
+
   var config = {};
 
    config.template = require('./home.tpl');
@@ -11,8 +13,9 @@ define(function (require) {
    //config.constructor = require('../common/biz/View');
    config.events = {
            'ready': function () {
-             //alert("299383");
-             //alert($(".title1").text());
+             //autoNav.rederNav();
+             //autoNav.onresize();
+             //window.onresize = autoNav.rederNav();
              sliderImg({
               wrap: document.getElementById('photo'),
               loop: true,
@@ -33,9 +36,9 @@ define(function (require) {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
                 //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
-                var blank    = (winWidth - 18 * 2 - 50 * 4) / 3 / 2;
+                var blank    = (winWidth - 12 * 2 - 70 * 4) / 3 / 2;
 
-                var oLis = dom.queryAll('.item-list a');
+                var oLis = dom.queryAll('.item-con a');
                 var len  = oLis.length;
 
                 for (var i = 0; i < len; i++) {

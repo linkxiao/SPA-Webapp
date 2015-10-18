@@ -2,11 +2,11 @@
 node_modules/
 build/
 fe/
-#templates_c/
+templates_c/
 mock/templates_c/
 conf.tpl
-#output/
-#release/
+output/
+release/
 online/
 online.zip
 src/order/order201508271320.js
