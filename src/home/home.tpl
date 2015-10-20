@@ -75,7 +75,7 @@
             <a href="#/detail/detail~10">
               <img src="${path}/common/img/case02.jpg"/>
               <article>
-                <h3>可溶解支架，让我不用做“钢铁侠”</h3>
+                <h3>手术后，心真的不疼了</h3>
                 <dd>李先生 &nbsp;&nbsp; 年龄:53岁</dd>
               </article>
             </a>
@@ -126,9 +126,9 @@
       </h5>
       <section>
         <aside>
-          <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+          <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
           <p>
-            <strong><a href="tel:400-187-6606">400-187-6606</a></strong> <br/>
+            <strong><a href="tel:400-184-6606">400-184-6606</a></strong> <br/>
           </p>
         </aside>
         <div class="qrcode">

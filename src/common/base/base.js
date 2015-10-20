@@ -23,7 +23,7 @@ return {
    onresize:function(){
      window.onresize=this.rederNav();
    }
-    
+
 
  }
 
