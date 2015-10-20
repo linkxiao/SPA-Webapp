@@ -10,9 +10,9 @@
    </h5>
    <section>
      <aside>
-       <a href="400-800-0000" target="_blank"><img src="${path}/common/img/icon-phone.png" /></a>
+       <a href="400-184-6606" target="_blank"><img src="${path}/common/img/icon-phone.png" /></a>
        <p>
-         <strong><a target"_self">400-800-0000</a></strong> <br/> 立即咨询
+         <strong><a target"_self">400-184-6606</a></strong> <br/> 立即咨询
        </p>
      </aside>
      <div class="qrcode">

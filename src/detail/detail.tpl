@@ -9,7 +9,7 @@
 <!-- var: headerText = "再狭窄率大幅降低"-->
 <!-- /if -->
 <!-- if: ${types} == 4-->
-<!-- var: headerText = "安心做核磁共振"-->
+<!-- var: headerText = "安心做磁共振"-->
 <!-- /if -->
 <!-- if: ${types} == 5-->
 <!-- var: headerText = "彻底恢复血管功能"-->
@@ -23,7 +23,7 @@
 <!-- if: ${types} == 8-->
 <!-- var: headerText = "最新病例"-->
 <!-- /if-->
-<!-- if: ${types} == 9-->
+<!-- if: ${types} >= 9-->
 <!-- var: headerText = "病例详情"-->
 <!-- /if -->
 <header data-type="${types}">
@@ -221,6 +221,124 @@
 				<p>
 					上海<span class="arrow-down">展开详情<i></i></span><br>
 					<span class="time-info">
+						飞行时间：5:20-5:40<br>
+						票价区间：2500-3500<br>
+						可选航班：<br>
+						MU545、MU543、MU567、
+						MU565、SQ825、SQ827、
+						SQ831、SQ833、SQ835
+					</span>
+				</p>
+				<p>
+					杭州<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：5:05-5:10<br>
+						票价区间：1100-2800<br>
+						可选航班：<br>
+						M3K832、MF841、CZ7425、
+						MI917
+					</span>
+				</p>
+				<p>
+					南京<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：5:10<br>
+						票价区间：2000-2200<br>
+						可选航班：<br>
+						TZ81
+					</span>
+				</p>
+				<p>
+					厦门<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:10-4:20<br>
+						票价区间：1800-3000<br>
+						可选航班：<br>
+						MI921、SQ5121、CZ7417、
+						MF873、CZ7403、MF851
+					</span>
+				</p>
+				<p>
+					福州<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:35<br>
+						票价区间：2500-3000<br>
+						可选航班：<br>
+						CZ7407、MF865
+					</span>
+				</p>
+				<p>
+					无锡<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：5:30<br>
+						票价区间：2300<br>
+						可选航班：<br>
+						MU5081
+					</span>
+				</p>
+				<p>
+					武汉<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：5:00<br>
+						票价区间：2000-3400<br>
+						可选航班：<br>
+						MI985、SQ5185
+					</span>
+				</p>
+				<p>
+					广州<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:00-4:25<br>
+						票价区间：760-2300<br>
+						可选航班：<br>
+						TR2989、CZ3039、MF9051、
+						SQ853、SQ851、TR2987、
+						CZ353、CZ351、MF9049
+					</span>
+				</p>
+				<p>
+					成都<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:04-5:00<br>
+						票价区间：2000-2800<br>
+						可选航班：<br>
+						MI935、MI937、SQ5135、
+						SQ5137、CA403
+					</span>
+				</p>
+				<p>
+					重庆<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:50<br>
+						票价区间：2100-4200<br>
+						可选航班：<br>
+						MI971、SQ5171
+					</span>
+				</p>
+				<p>
+					南宁<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：3:35<br>
+						票价区间：1300<br>
+						可选航班：<br>
+						TR2917
+					</span>
+				</p>
+				<p>
+					香港<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：3:40-3:50<br>
+						票价区间：450-3000<br>
+						可选航班：<br>
+					</span>
+				</p>
+				<p>
+					澳门<span class="arrow-down">展开详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：4:00-3:55<br>
+						票价区间：700-950<br>
+						可选航班：<br>
+						TR2903、TR2905
 					</span>
 				</p>
 			</td>
@@ -232,6 +350,33 @@
 						票价区间：9800-15000<br>
 						可选航班：<br>
 						CA937、CA855、BA038
+					</span>
+				</p>
+				<p>
+					上海<span class="arrow-up">收起详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：12:35-12:50<br>
+						票价区间：11000-15000<br>
+						可选航班：<br>
+						MU551、BA168、CA7021
+					</span>
+				</p>
+				<p>
+					广州<span class="arrow-up">收起详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：12:40<br>
+						票价区间：10000-16000<br>
+						可选航班：<br>
+						CZ303
+					</span>
+				</p>
+				<p>
+					成都<span class="arrow-up">收起详情<i></i></span><br>
+					<span class="time-info">
+						飞行时间：10:55<br>
+						票价区间：10000-20000<br>
+						可选航班：<br>
+						BA088
 					</span>
 				</p>
 			</td>
@@ -381,9 +526,9 @@
    </h5>
    <section>
 	 <aside>
-		 <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+		 <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
 		 <p>
-			 <strong><a href="tel:400-187-6606">400-187-6606</a></strong>
+			 <strong><a href="tel:400-184-6606">400-187-6606</a></strong>
 		 </p>
 	 </aside>
      <div class="qrcode">

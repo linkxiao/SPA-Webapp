@@ -151,9 +151,9 @@
    </h5>
    <section>
      <aside>
-       <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+       <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
        <p>
-         <strong><a href="tel:400-187-6606">400-187-6606</a></strong>
+         <strong><a href="tel:400-184-6606">400-187-6606</a></strong>
        </p>
      </aside>
      <div class="qrcode">
