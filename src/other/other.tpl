@@ -95,7 +95,7 @@
 			<td style="padding-bottom:10px;">
 				<h2>致电咨询</h2>
 				<ul>
-					<li>致电400-187-6606，医疗顾问了解病情并收集资料</li>
+					<li>致电400-184-6606，医疗顾问了解病情并收集资料</li>
 					<li>医疗专家根据病历资料，进行初步评估</li>
 					<li>手术医生确定是否适合治疗，并拟定治疗方案</li>
 				</ul>
@@ -148,9 +148,9 @@
    </h5>
    <section>
 	 <aside>
-		 <a href="tel:400-187-6606"><img src="${path}/common/img/icon-phone.png" /></a>
+		 <a href="tel:400-184-6606"><img src="${path}/common/img/icon-phone.png" /></a>
 		 <p>
-			 <strong><a href="tel:400-187-6606">400-187-6606</a></strong>
+			 <strong><a href="tel:400-184-6606">400-184-6606</a></strong>
 		 </p>
 	 </aside>
      <div class="qrcode">
