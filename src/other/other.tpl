@@ -128,10 +128,10 @@
 
 <!-- elif:${types} == 4-->
 <div class="feedback-container">
-	<input type="text" placeholder="请输入您的姓名">
-	<input type="text" placeholder="请输入您的电话号码">
-	<textarea placeholder="请输入您的意见"></textarea>
-	<input type="button" value="提交问题">
+	<input id="name-input" type="text" placeholder="请输入您的姓名">
+	<input id="phone-number" type="text" placeholder="请输入您的电话号码">
+	<textarea id="opinion-txt" placeholder="请输入您的意见"></textarea>
+	<input id="feedback-btn" type="button" value="提交问题">
 </div>
 <!-- /if-->
 

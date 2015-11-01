@@ -219,7 +219,7 @@
 					</span>
 				</p>
 				<p>
-					上海<span class="arrow-down">展开详情<i></i></span><br>
+					上海<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：5:20-5:40<br>
 						票价区间：2500-3500<br>
@@ -230,7 +230,7 @@
 					</span>
 				</p>
 				<p>
-					杭州<span class="arrow-down">展开详情<i></i></span><br>
+					杭州<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：5:05-5:10<br>
 						票价区间：1100-2800<br>
@@ -240,7 +240,7 @@
 					</span>
 				</p>
 				<p>
-					南京<span class="arrow-down">展开详情<i></i></span><br>
+					南京<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：5:10<br>
 						票价区间：2000-2200<br>
@@ -249,7 +249,7 @@
 					</span>
 				</p>
 				<p>
-					厦门<span class="arrow-down">展开详情<i></i></span><br>
+					厦门<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:10-4:20<br>
 						票价区间：1800-3000<br>
@@ -259,7 +259,7 @@
 					</span>
 				</p>
 				<p>
-					福州<span class="arrow-down">展开详情<i></i></span><br>
+					福州<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:35<br>
 						票价区间：2500-3000<br>
@@ -268,7 +268,7 @@
 					</span>
 				</p>
 				<p>
-					无锡<span class="arrow-down">展开详情<i></i></span><br>
+					无锡<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：5:30<br>
 						票价区间：2300<br>
@@ -277,7 +277,7 @@
 					</span>
 				</p>
 				<p>
-					武汉<span class="arrow-down">展开详情<i></i></span><br>
+					武汉<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：5:00<br>
 						票价区间：2000-3400<br>
@@ -286,7 +286,7 @@
 					</span>
 				</p>
 				<p>
-					广州<span class="arrow-down">展开详情<i></i></span><br>
+					广州<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:00-4:25<br>
 						票价区间：760-2300<br>
@@ -297,7 +297,7 @@
 					</span>
 				</p>
 				<p>
-					成都<span class="arrow-down">展开详情<i></i></span><br>
+					成都<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:04-5:00<br>
 						票价区间：2000-2800<br>
@@ -307,7 +307,7 @@
 					</span>
 				</p>
 				<p>
-					重庆<span class="arrow-down">展开详情<i></i></span><br>
+					重庆<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:50<br>
 						票价区间：2100-4200<br>
@@ -316,7 +316,7 @@
 					</span>
 				</p>
 				<p>
-					南宁<span class="arrow-down">展开详情<i></i></span><br>
+					南宁<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：3:35<br>
 						票价区间：1300<br>
@@ -325,7 +325,7 @@
 					</span>
 				</p>
 				<p>
-					香港<span class="arrow-down">展开详情<i></i></span><br>
+					香港<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：3:40-3:50<br>
 						票价区间：450-3000<br>
@@ -333,7 +333,7 @@
 					</span>
 				</p>
 				<p>
-					澳门<span class="arrow-down">展开详情<i></i></span><br>
+					澳门<span class="arrow-up">收起详情<i></i></span><br>
 					<span class="time-info">
 						飞行时间：4:00-3:55<br>
 						票价区间：700-950<br>

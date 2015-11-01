@@ -12,8 +12,8 @@ define(function (require) {
     config.template = require('./item.tpl');
     config.events = {
         ready: function () {
-            // document.documentElement.scrollTop = 0;
-            // document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
             //
             // document.addEventListener('touchstart',touchStart, false);
             // //document.addEventListener('touchmove',touch, false);
@@ -42,7 +42,7 @@ define(function (require) {
             //     clientY = -1;
             // }
 
-            (rederNav = function() {
+            var rederNav = function() {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
                 //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
@@ -76,9 +76,11 @@ define(function (require) {
                         dom.setStyle(oAs[i], 'height', btnHeight * percentage + 'px');
                     }
                 }
-            })();
+            };
 
-            window.onresize = rederNav;
+            rederNav();
+
+            window.onorientationchange = rederNav;
         }
     };
 
