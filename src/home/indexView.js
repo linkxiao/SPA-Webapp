@@ -32,7 +32,7 @@ define(function (require) {
               dom.query('#photo').style.height = h+'px';
             })();
 
-            (rederNav = function() {
+            var rederNav = function() {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
                 //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
@@ -44,9 +44,11 @@ define(function (require) {
                 for (var i = 0; i < len; i++) {
                     dom.setStyle(oLis[i], 'padding', '0px ' + blank + 'px');
                 }
-            })();
+            };
 
-            window.onresize = rederNav;
+            rederNav();
+
+            window.onorientationchange = rederNav;
          }
        }
 

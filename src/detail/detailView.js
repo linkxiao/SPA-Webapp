@@ -15,7 +15,7 @@ define(function (require) {
             document.documentElement.scrollTop = 0;
             document.body.scrollTop = 0;
 
-            (rederNav = function() {
+            var rederNav = function() {
                 //控制导航的间距
                 var winWidth = window.innerWidth;
                 //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
@@ -34,9 +34,11 @@ define(function (require) {
                     dom.setStyle(oTrs[0], 'width', colWidth + 'px');
                     dom.setStyle(oTrs[2], 'width', colWidth + 'px');
                 }
-            })();
+            };
 
-            window.onresize = rederNav;
+            rederNav();
+
+            window.onorientationchange = rederNav;
         }
     };
 
