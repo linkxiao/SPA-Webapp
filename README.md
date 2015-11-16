@@ -8,7 +8,7 @@
 
 ## 项目代码
 ```javascript
-git clone http://gitlab.baidu.com/care-fe/wise.git
+git clone https://github.com/linkxiao/heart.git
 ```
 
 ## 项目依赖

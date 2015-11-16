@@ -25,30 +25,30 @@ define(function (require) {
            });
           (function(){
               var auto = window.innerWidth/640;
-              console.log(window.innerWidth);
-              console.log(auto);
+              // console.log(window.innerWidth);
+              // console.log(auto);
               var h = auto*400;
               h = h>400?400:h
               dom.query('#photo').style.height = h+'px';
             })();
 
-            var rederNav = function() {
-                //控制导航的间距
-                var winWidth = window.innerWidth;
-                //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
-                var blank    = (winWidth - 12 * 2 - 70 * 4) / 3 / 2;
-
-                var oLis = dom.queryAll('.item-con a');
-                var len  = oLis.length;
-
-                for (var i = 0; i < len; i++) {
-                    dom.setStyle(oLis[i], 'padding', '0px ' + blank + 'px');
-                }
-            };
-
-            rederNav();
-
-            window.onorientationchange = rederNav;
+            // var rederNav = function() {
+            //     //控制导航的间距
+            //     var winWidth = window.innerWidth;
+            //     //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
+            //     var blank    = (winWidth - 12 * 2 - 70 * 4) / 3 / 2;
+            //
+            //     var oLis = dom.queryAll('.item-con a');
+            //     var len  = oLis.length;
+            //
+            //     for (var i = 0; i < len; i++) {
+            //         dom.setStyle(oLis[i], 'padding', '0px ' + blank + 'px');
+            //     }
+            // };
+            //
+            // rederNav();
+            //
+            // window.onorientationchange = rederNav;
          }
        }
 
