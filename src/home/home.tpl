@@ -66,7 +66,7 @@
               <img src="${path}/common/img/case01.jpg"/>
               <article>
                 <h3>可溶解支架&nbsp;&nbsp;让我不用做“钢铁侠”</h3>
-                <dd>王先生 &nbsp;&nbsp; 年龄:46</dd>
+                <dd>王先生 &nbsp;&nbsp; 年龄:46岁</dd>
               </article>
             </a>
          </li>
@@ -96,7 +96,7 @@
               <img src="${path}/common/img/case04.jpg"/>
               <article>
                 <h3>“更年期”症状，也可以手术治好</h3>
-                <dd>夏女士 &nbsp;&nbsp; 年龄:24</dd>
+                <dd>夏女士 &nbsp;&nbsp; 年龄:24岁</dd>
               </article>
             </a>
          </li>
