@@ -11,8 +11,8 @@
 ## 环境搭建
 - 安装:[nodejs](https://nodejs.org/en/)
 - 安装[git](http://git-scm.com/)
-- 安装[edp]:npm install -g edp
-- 安装[php-cgi]:并将php-cgi可执行程序添加到环境变量中
+- 安装[edp](https://github.com/ecomfe/edp) npm install -g edp
+- 安装[php-cgi](http://stackoverflow.com/questions/27232483/how-to-install-php-cgi-as-a-plugin-in-mac-os-os-x-10-10) brew install php54(并将php-cgi可执行程序添加到环境变量中);
 
 ## 项目代码
 ```javascript
