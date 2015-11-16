@@ -115,7 +115,7 @@
       <li class="flex-cell"><a href="#/other/other~3">就医指南</a></li>
       <li class="flex-cell"><a href="#/other/other~4">意见反馈</a></li>
       </ul> -->
-      <ul class="footer-list item-con">
+      <ul class="item-con footer-con">
       <li class="first-item item"><a href="#/other/other~1">关于我们</a></li>
       <li class="item"><a href="#/other/other~2">常见问题</a></li>
       <li class="item"><a href="#/other/other~3">就医指南</a></li>

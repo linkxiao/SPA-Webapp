@@ -4,7 +4,8 @@ define(function (require) {
   var dom = require('saber-dom');
   var path=require("global/path");
   var sliderImg=require("../plugin/slide/1.0/slide-img");
-  var autoNav=require('../common/base/base');
+  //var autoNav=require('../common/base/base');
+  var top=require("../common/base/readyDom");
 
   var config = {};
 
@@ -13,9 +14,7 @@ define(function (require) {
    //config.constructor = require('../common/biz/View');
    config.events = {
            'ready': function () {
-             //autoNav.rederNav();
-             //autoNav.onresize();
-             //window.onresize = autoNav.rederNav();
+             top.domTop();//页面跳转时自动回到顶部
              sliderImg({
               wrap: document.getElementById('photo'),
               loop: true,
@@ -31,26 +30,8 @@ define(function (require) {
               h = h>400?400:h
               dom.query('#photo').style.height = h+'px';
             })();
-
-            // var rederNav = function() {
-            //     //控制导航的间距
-            //     var winWidth = window.innerWidth;
-            //     //var blank    = Math.round((winWidth - 18 * 2 - 50 * 4) / 3 / 2) - 1;
-            //     var blank    = (winWidth - 12 * 2 - 70 * 4) / 3 / 2;
-            //
-            //     var oLis = dom.queryAll('.item-con a');
-            //     var len  = oLis.length;
-            //
-            //     for (var i = 0; i < len; i++) {
-            //         dom.setStyle(oLis[i], 'padding', '0px ' + blank + 'px');
-            //     }
-            // };
-            //
-            // rederNav();
-            //
-            // window.onorientationchange = rederNav;
          }
-       }
+       };
 
 
 
