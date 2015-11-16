@@ -1,18 +1,18 @@
-# 法兰医疗
+# The SPA Webapp
 
 ##项目简介
 这是一款基于saber(性能与体验俱佳的SPA轻应用快速解决方案)和edp(前端构建利器:gulp,grunt比它弱爆了)的webapp。
 - 基于SPA的webapp:体验好，性能佳;
 - 基于Module的经典MVC:回归经典的开发模式;
-- common和biz层充分解偶:common层作为公共组件和resoures的集合不处理具体的业务逻辑，biz层作为专门处理业务逻辑模块也能高度解偶,
+- common和biz层充分解偶:common层作为公共组件和resoures的集合不处理具体的业务逻辑，biz层作为专门处理业务逻辑的模块也能高度解偶,
 高度模块化、颗粒化，让工程师专注于biz层业务逻辑的实现；
 - 良好的容错性:一个模块出现问题，其他模块不受影响，正常run;
 
 ## 环境搭建
-- 安装nodejs
+- 安装:[nodejs](https://nodejs.org/en/)
 - 安装[git](http://git-scm.com/)
-- npm install -g edp
-- 安装php-cgi，并将php-cgi可执行程序添加到环境变量中
+- 安装[edp]:npm install -g edp
+- 安装[php-cgi]:并将php-cgi可执行程序添加到环境变量中
 
 ## 项目代码
 ```javascript
