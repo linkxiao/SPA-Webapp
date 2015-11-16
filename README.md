@@ -1,7 +1,7 @@
 # 法兰医疗
 
 ##项目简介
-这是一款基于saber(性能与体验俱佳的SPA轻应用快速解决方案)和edp(前端构建利器:gulp,grunt比它弱爆了)的webapp
+这是一款基于saber(性能与体验俱佳的SPA轻应用快速解决方案)和edp(前端构建利器:gulp,grunt比它弱爆了)的webapp。
 - 基于SPA的webapp:体验好，性能佳;
 - 基于Module的经典MVC:回归经典的开发模式;
 - common和biz层充分解偶:common层作为公共组件和resoures的集合不处理具体的业务逻辑，biz层作为专门处理业务逻辑模块也能高度解偶,
