@@ -1,4 +1,4 @@
-;# The SPA Webapp
+The SPA Webapp
 
 ##项目简介
 这是一款基于saber(性能与体验俱佳的SPA轻应用快速解决方案)和edp(前端构建利器:gulp,grunt比它弱爆了)的webapp。
